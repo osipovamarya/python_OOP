@@ -39,7 +39,7 @@ class Person:
         self.first_name, self.last_name, self.age = first_name, last_name, age
 
     def full_name(self):
-        return (f'{self.last_name} {self.first_name}')
+        return f'{self.last_name} {self.first_name}'
 
     def is_adult(self):
-        return(self.age >= 18)
+        return self.age >= 18
